@@ -157,6 +157,7 @@ nav {
 .state {
   width: 70%;
   color: #fff;
+  text-align: justify;
 }
 
 .shout {
@@ -170,6 +171,10 @@ nav {
 
 .black {
   color: black;
+}
+
+.white {
+  color: white;
 }
 
 #sec3background {
@@ -232,4 +237,44 @@ footer {
   margin-bottom: 5%;
   font-family: 'Teko', sans-serif;
   font-size: 4em;
+}
+
+/*PLAN*/
+.widecolumn {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.evencolumn {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.narrowcolumn {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.whiteback {
+  background-color: white;
+}
+
+.grayback {
+  background-color: darkslategray;
+}
+
+.row {
+  flex-direction: row;
 }
