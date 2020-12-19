@@ -71,7 +71,8 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url('images/white-abstraxt.jpg') center;
+  background-image: url('images/white-abstraxt.jpg');
+  background-position: center;
 }
 
 #intro1 p {
@@ -110,7 +111,8 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url('images/clothrack.jpg') center;
+  background-image: url('images/clothrack.jpg');
+  background-position: center;
   background-size: cover;
   opacity: .7;
   transition: .25s;
