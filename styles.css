@@ -239,6 +239,53 @@ footer {
   font-size: 4em;
 }
 
+.aboutpara {
+  color: black;
+  margin: auto;
+  width: 70%;
+  padding-left: 5%;
+  text-align: justify;
+}
+
+.profilepic {
+  height: 100%;
+  margin: auto;
+}
+
+.hovercontain {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.hovercontain p {
+  margin: auto;
+}
+
+.hoverbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  transition: .1s;
+}
+
+.hoverbox:hover {
+  opacity: 0;
+}
+
+#abouttopback {
+  background: url('images/aboutsecback.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 /*PLAN*/
 .widecolumn {
   width: 60%;
@@ -273,6 +320,10 @@ footer {
 
 .grayback {
   background-color: darkslategray;
+}
+
+.blackback {
+  background-color: black;
 }
 
 .row {
