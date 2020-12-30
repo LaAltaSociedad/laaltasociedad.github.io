@@ -1,0 +1,47 @@
+.preloadlogo {
+  fill: white;
+}
+
+.main {
+  fill: #f6f6f6;
+}
+
+.tail {
+  fill: #b0b0b0;
+}
+
+#logo path:nth-child(1) {
+  stroke-dasharray: 272.4927978515625;
+  stroke-dashoffset: 272.4927978515625;
+  animation: loading 3s forwards;
+}
+
+#logo path:nth-child(2) {
+  stroke-dasharray: 226.9282989501953;
+  stroke-dashoffset: 226.9282989501953;
+  animation: loading 3s forwards;
+}
+
+#logo path:nth-child(3) {
+  stroke-dasharray: 147.67608642578125;
+  stroke-dashoffset: 147.67608642578125;
+  animation: loading 3s forwards;
+}
+
+#logo path:nth-child(4) {
+  stroke-dasharray: 2142.6064453125;
+  stroke-dashoffset: 2142.6064453125;
+  animation: loading 3s forwards;
+}
+
+#logo path:nth-child(5) {
+  stroke-dasharray: 2798.1591796875;
+  stroke-dashoffset: 2798.1591796875;
+  animation: loading 3s forwards;
+}
+
+@keyframes loading {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

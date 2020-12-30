@@ -1,0 +1,61 @@
+.preload {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  padding: 2em;
+  box-sizing: border-box;
+  animation: loading-animation 9s ease-in-out infinite alternate;
+  background: linear-gradient(45deg, black, red, orange, yellow, lime, skyblue, pink, purple);
+  background-size: 800%;
+  transition: all .5s;
+  transition-delay: 3s;
+}
+
+.loaded {
+  transform: translateY(-100%);
+  animation: bg 1s forwards, remove .5s 4s forwards;
+}
+
+@keyframes remove {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes bg {
+  0% {
+    background: white;
+  }
+
+  100% {
+    background: black;
+  }
+}
+
+@keyframes loading-animation {
+  0% {
+    background-position: left;
+  }
+
+  100% {
+    background-position: right;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  svg {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  svg {
+    width: 70%;
+  }
+}
