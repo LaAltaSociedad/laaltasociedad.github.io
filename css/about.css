@@ -1,0 +1,36 @@
+#aboutintro {
+  background-image: url('../images/backgrounds/clouds.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+}
+
+.imagelinks {
+  height: 100%;
+}
+
+.imagelinks img {
+  height: 100%;
+}
+
+#plansection {
+  background-image: url('../images/backgrounds/plan.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+#plansection h2 {
+  margin-bottom: auto;
+}
+
+#plansection a {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#plansection button {
+  color: white;
+}
